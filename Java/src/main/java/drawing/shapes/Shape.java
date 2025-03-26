@@ -1,7 +1,7 @@
 package drawing.shapes;
 
-import drawing.writing.JPEGWriter;
-import drawing.writing.PNGWriter;
+//import drawing.writing.JPEGWriter;
+//import drawing.writing.PNGWriter;
 
 import java.io.IOException;
 import java.io.Writer;
@@ -29,7 +29,7 @@ public interface Shape {
                 // TODO: what is the purpose of the code there?
                 if (writer instanceof JPEGWriter) {
                     writer.write(line.toJPEG());
-                } else if (writer instanceof PNGWriter) {
+                } else if (writer ilnstanceof PNGWriter) {
                     writer.write(line.toPNG());
                 }
             }
